@@ -1,0 +1,20 @@
+Send Notification For User, When User Send Get Quote, Contact, Subscriber 
+// Mail::to($request->email)->send(new GetQuoteMail($data)); For send to user email
+
+Wink Blog Credintials
+
+========== Blog Old Credentials ==========
+Email    : admin@mail.com
+Password : xfQq340B1b7hu3dq
+==========================================
+
+========== Blog New Credentials ==========
+Email    : designercountry@gmail.com
+Password : designercountry
+==========================================
+
+
+============== Dashboard Login Credentials ==============
+Email    : designercountry@gmail.com
+Password : designercountry
+=========================== ** ==========================

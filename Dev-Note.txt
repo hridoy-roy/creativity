@@ -1,6 +1,5 @@
 Send Notification For User, When User Send Get Quote, Contact, Subscriber 
 // Mail::to($request->email)->send(new GetQuoteMail($data)); For send to user email
-
 Wink Blog Credintials
 
 ========== Blog Old Credentials ==========

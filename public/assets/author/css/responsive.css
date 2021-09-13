@@ -1,0 +1,289 @@
+@media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+        left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover > ul {
+        left: -100%;
+    }
+    .nav-menu .drop-down .drop-down > a:after {
+        content: "\ea9d";
+    }
+}
+@media (max-width: 1200px) {
+    .faq .faq-list {
+        padding: 0;
+    }
+}
+/*	Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .mobile-nav-toggle {
+        top: 27px;
+        right: 24px;
+    }
+}
+
+/*	Wide Tablet Layout: 576.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Tablet Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Base Css */
+    p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    h1 {
+        font-size: 26px !important;
+    }
+    h2 {
+        font-size: 24px !important;
+    }
+    h3 {
+        font-size: 23px !important;
+    }
+    h4 {
+        font-size: 22px !important;
+    }
+    h5 {
+        font-size: 21px !important;
+    }
+    h6 {
+        font-size: 21px !important;
+    }
+    /* Get Started */
+    .get-started-btn {
+        margin: 0 48px 0 0;
+        padding: 6px 20px 7px 20px;
+    }
+    .mobile-nav-toggle {
+        top: 27px;
+    }
+    /* Clipping path */
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+    /* End Clipping path */
+
+    /* End Sample Page */
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+}
+
+/*	Wide Mobile Layout: 431.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+    .mobile-pt-10 {
+        padding-top: 10px;
+    }
+    .mobile-pb-10 {
+        padding-bottom: 10px;
+    }
+    .mobile-pt-20 {
+        padding-top: 20px;
+    }
+    .mobile-pb-20 {
+        padding-bottom: 20px;
+    }
+    .mobile-mt-10 {
+        margin-top: 10px;
+    }
+    .mobile-mb-10 {
+        margin-bottom: 10px;
+    }
+    .mobile-mt-20 {
+        margin-top: 20px;
+    }
+    .mobile-mb-20 {
+        margin-bottom: 20px;
+    }
+    .mobile-py-10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mobile-py-20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mobile-my-10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobile-my-20 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h1 {
+        font-size: 24px !important;
+    }
+    h2 {
+        font-size: 23px !important;
+    }
+    h3 {
+        font-size: 22px !important;
+    }
+    h4 {
+        font-size: 21px !important;
+    }
+    h5 {
+        font-size: 20px !important;
+    }
+    h6 {
+        font-size: 20px !important;
+    }
+    /* End Base Css */
+    .mobile-nav-toggle {
+        top: 26px;
+        right: 10px;
+    }
+    #header .logo {
+        padding-left: 8px;
+    }
+    .free-trail {
+        padding: 25px 0px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(1.5rem + 11px);
+    }
+    .form-control {
+        line-height: 1.5rem;
+    }
+    .submit {
+        border-radius: 5px;
+        padding: 8px 15px;
+    }
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+}
+
+/*	Wide Mobile Layout: 360.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 310px) and (max-width: 449.98px) {
+    /* Base Css */
+    .mobile-pt-10 {
+        padding-top: 10px;
+    }
+    .mobile-pb-10 {
+        padding-bottom: 10px;
+    }
+    .mobile-pt-20 {
+        padding-top: 20px;
+    }
+    .mobile-pb-20 {
+        padding-bottom: 20px;
+    }
+    .mobile-mt-10 {
+        margin-top: 10px;
+    }
+    .mobile-mb-10 {
+        margin-bottom: 10px;
+    }
+    .mobile-mt-20 {
+        margin-top: 20px;
+    }
+    .mobile-mb-20 {
+        margin-bottom: 20px;
+    }
+    .mobile-py-10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mobile-py-20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mobile-my-10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobile-my-20 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    h2 {
+        font-size: 19px !important;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    h4 {
+        font-size: 17px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 16px !important;
+    }
+    .mobile-nav-toggle {
+        top: 26px;
+        right: 10px;
+    }
+    #header .logo {
+        padding-left: 8px;
+    }
+    .free-trail {
+        padding: 25px 0px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(1.2rem + 10px);
+    }
+    .form-control {
+        line-height: 1.2rem;
+    }
+    .submit {
+        border-radius: 5px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+    /* Get Quote */
+    .check-container .checkmark:after {
+        left: 6px;
+        top: 3px;
+    }
+    .checkmark {
+        top: 4px;
+        left: 2px;
+        height: 16px;
+        width: 16px;
+    }
+    .file_upload_body .card-body i {
+        font-size: 35px;
+    }
+}

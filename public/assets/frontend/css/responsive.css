@@ -1,0 +1,750 @@
+@media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+        left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover > ul {
+        left: -100%;
+    }
+    .nav-menu .drop-down .drop-down > a:after {
+        content: "\ea9d";
+    }
+}
+@media (max-width: 1200px) {
+    .faq .faq-list {
+        padding: 0;
+    }
+}
+/*	Tablet PC: 992px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .blog-card {
+        height: 350px;
+    }
+    .team .member {
+        height: auto;
+    }
+    .google-map{
+        width: 100%;
+        height: 400px;
+    }
+    #hero h1 {
+        font-size: 35px;
+    }
+}
+/*	Tablet Layout: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* Banner */
+    #hero {
+        height: 100vh;
+        text-align: center;
+    }
+    #hero h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #hero h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    #hero .hero-content{
+        text-align: left;
+    }
+    #hero .animated {
+        -webkit-animation: none;
+        animation: none;
+    }
+    #hero .hero-img {
+        text-align: center;
+    }
+    #hero .hero-img img {
+        width: 100%;
+    }
+    /* End Banner  */
+    /* Cta */
+    .cta .cta-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    /* End Cta */
+    .get-started-btn {
+        margin-right: 25px;
+    }
+    .mobile-nav-toggle {
+        top: 27px;
+        right: 24px;
+    }
+    /* Pricing Page */
+    .pricing-card {
+        max-width: 715px;
+        padding: 35px 0px 0px 0px;
+    }
+    .price-body {
+        width: 445px;
+    }
+    .nav-pills .nav-link {
+        font-size: 15px;
+    }
+    /* End Pricing Page */
+
+    /* Sample Page */
+    .sample-head h2 {
+        max-width: 800px;
+    }
+    /* Contact */
+    .contact .info h4 {
+        font-size: 18px;
+    }
+    .google-map{
+        width: 100%;
+        height: auto;
+    }
+    /* End Sample Page */
+}
+
+/*	Wide Tablet Layout: 576.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Tablet Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Base Css */
+    p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    h1 {
+        font-size: 26px !important;
+    }
+    h2 {
+        font-size: 24px !important;
+    }
+    h3 {
+        font-size: 23px !important;
+    }
+    h4 {
+        font-size: 22px !important;
+    }
+    h5 {
+        font-size: 21px !important;
+    }
+    h6 {
+        font-size: 21px !important;
+    }
+    /* Get Started */
+    .get-started-btn {
+        margin: 0px 20px 0px 0px;
+        padding: 6px 16px 5px 16px;
+    }
+    /* Banner */
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    #hero {
+        height: auto;
+    }
+    #hero .hero-img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #hero .hero-img img {
+        width: 100%;
+    }
+    /* End Banner */
+    /* End Base Css */
+    .cta {
+        padding: 50px 0px;
+    }
+    .work-brand img {
+        height: 200px;
+    }
+    .mobile-nav-toggle {
+        top: 27px;
+    }
+    .custom_button {
+        padding: 25px 0px;
+    }
+    /* Clipping path */
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+    /* End Clipping path */
+    /* Blog page */
+    .blog-card {
+        height: 350px;
+    }
+    /* End Blog page */
+    /* pricing Page */
+    .pricing-card {
+        max-width: 98%;
+        padding: 35px 0px 0px 0px;
+    }
+    .price-body {
+        width: 445px;
+    }
+    .nav-pills .nav-link {
+        font-size: 14px;
+    }
+    /* End pricing Page */
+
+    /* Sample Page */
+    .sample-btn-group {
+        max-width: 100%;
+        margin: auto;
+    }
+    .sample-head h2 {
+        max-width: 95%;
+    }
+
+    /* End Sample Page */
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+    .contact .info {
+        margin-bottom: 30px;
+    }
+    .google-map{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*	Wide Mobile Layout: 431.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+    .mobile-pt-10 {
+        padding-top: 10px;
+    }
+    .mobile-pb-10 {
+        padding-bottom: 10px;
+    }
+    .mobile-pt-20 {
+        padding-top: 20px;
+    }
+    .mobile-pb-20 {
+        padding-bottom: 20px;
+    }
+    .mobile-mt-10 {
+        margin-top: 10px;
+    }
+    .mobile-mb-10 {
+        margin-bottom: 10px;
+    }
+    .mobile-mt-20 {
+        margin-top: 20px;
+    }
+    .mobile-mb-20 {
+        margin-bottom: 20px;
+    }
+    .mobile-py-10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mobile-py-20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mobile-my-10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobile-my-20 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h1 {
+        font-size: 24px !important;
+    }
+    h2 {
+        font-size: 23px !important;
+    }
+    h3 {
+        font-size: 22px !important;
+    }
+    h4 {
+        font-size: 21px !important;
+    }
+    h5 {
+        font-size: 20px !important;
+    }
+    h6 {
+        font-size: 20px !important;
+    }
+    /* End Base Css */
+
+    /*-----------------------------------------------------------
+    * Index Page Css
+    *------------------------------------------------------------*/
+    /* Banner */
+    #hero h2 {
+        margin-bottom: 15px;
+    }
+    #hero h1 {
+        font-size: 20px !important;
+    }
+    #hero .hero-img img {
+        width: 80%;
+    }
+    #hero .btn-get-started {
+        font-size: 16px;
+        padding: 10px 24px 11px 24px;
+    }
+    #hero .btn-watch-video {
+        font-size: 16px;
+        padding: 10px 0 8px 40px;
+        margin-left: 20px;
+    }
+    #hero .btn-watch-video i {
+        font-size: 32px;
+        top: 7px;
+    }
+    /* End Banner */
+    .get-started-btn {
+        margin: 0 48px 0 0;
+        padding: 4px 10px 4px 10px;
+    }
+    .mobile-nav-toggle {
+        top: 26px;
+        right: 10px;
+    }
+    #header .logo {
+        padding-left: 8px;
+    }
+    #hero {
+        height: auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .custom_button {
+        padding: 15px 0px;
+    }
+    .howWork i {
+        font-size: 35px;
+    }
+    .why-designer-country i {
+        padding: 10px;
+        font-size: 35px;
+    }
+    .custom_button a {
+        padding: 10px 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    .free-trail {
+        padding: 25px 0px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(1.5rem + 11px);
+    }
+    .form-control {
+        line-height: 1.5rem;
+    }
+    .submit {
+        border-radius: 5px;
+        padding: 8px 15px;
+    }
+    .work-brand img {
+        height: 180px;
+    }
+    .cta {
+        padding: 15px 0px;
+    }
+    .cta .cta-btn {
+        padding: 8px 20px;
+        border-radius: 9px;
+        transition: none;
+    }
+    .footer .footer-newsletter {
+        padding: 25px 0;
+    }
+    .footer .footer-newsletter form {
+        padding-top: 20px;
+    }
+    .footer .footer-top .footer-links ul li {
+        padding: 3px 0;
+        font-size: 13px;
+    }
+    .footer .footer-top .footer-links ul i {
+        font-size: 16px;
+    }
+    .footer .footer-top {
+        padding: 25px 0 0px 0;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    .footer .copyright {
+        text-align: center;
+    }
+    .footer .credits {
+        text-align: center;
+    }
+    /*-----------------------------------------------------------
+    * End Index Page Css
+    *------------------------------------------------------------*/
+    /* Clipping path */
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+    /* End Clipping path */
+
+    /* pricing Page */
+    .pricing-card {
+        max-width: 98%;
+        padding: 35px 0px 0px 0px;
+    }
+    .price-body {
+        width: 90%;
+    }
+    .nav-pills .nav-link {
+        font-size: 10px;
+    }
+    /* End pricing Page */
+
+    /* Sample Page */
+    .sample-btn-group {
+        max-width: 100%;
+        margin: auto;
+    }
+    .sample-body img {
+        width: 100%;
+    }
+    .sample-head h2 {
+        max-width: 90%;
+    }
+    /* End Sample Page */
+    /* Blog Css */
+    .blog-card {
+        height: auto;
+    }
+    .contact .info {
+        margin-bottom: 20px;
+    }
+    .google-map{
+        width: 100%;
+        height: auto;
+    }
+    /* End Blog Css */
+}
+
+/*	Wide Mobile Layout: 360.
+    Gutters: 24px.
+    Outer margins: 22px.
+    Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 310px) and (max-width: 449.98px) {
+    /* Base Css */
+    .mobile-pt-10 {
+        padding-top: 10px;
+    }
+    .mobile-pb-10 {
+        padding-bottom: 10px;
+    }
+    .mobile-pt-20 {
+        padding-top: 20px;
+    }
+    .mobile-pb-20 {
+        padding-bottom: 20px;
+    }
+    .mobile-mt-10 {
+        margin-top: 10px;
+    }
+    .mobile-mb-10 {
+        margin-bottom: 10px;
+    }
+    .mobile-mt-20 {
+        margin-top: 20px;
+    }
+    .mobile-mb-20 {
+        margin-bottom: 20px;
+    }
+    .mobile-py-10 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mobile-py-20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mobile-my-10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .mobile-my-20 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    h2 {
+        font-size: 19px !important;
+    }
+    h3 {
+        font-size: 18px !important;
+    }
+    h4 {
+        font-size: 17px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 16px !important;
+    }
+    /* End Base Css */
+
+    /*-----------------------------------------------------------
+    * Index Page Css
+    *------------------------------------------------------------*/
+    .get-started-btn {
+        margin: 0 48px 0 0;
+        padding: 4px 10px 4px 10px;
+    }
+    .get-started-btn {
+        display: none;
+    }
+    .mobile-nav-toggle {
+        top: 26px;
+        right: 10px;
+    }
+    #hero h1{
+        line-height: 40px;
+    }
+    #hero h2 {
+        margin-bottom: 0px;
+    }
+    #hero .btn-get-started {
+        padding: 5px 5px 5px 5px;
+        border-radius: 5px;
+    }
+    #header .logo {
+        padding-left: 8px;
+    }
+    #hero {
+        height: auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .custom_button {
+        padding: 15px 0px;
+    }
+    .howWork i {
+        font-size: 35px;
+    }
+    .why-designer-country i {
+        padding: 10px;
+        font-size: 35px;
+    }
+    .custom_button a {
+        padding: 8px 8px 8px 8px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .free-trail {
+        padding: 25px 0px;
+    }
+    select.form-control:not([size]):not([multiple]) {
+        height: calc(1.2rem + 10px);
+    }
+    .form-control {
+        line-height: 1.2rem;
+    }
+    .submit {
+        border-radius: 5px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .work-brand img {
+        height: 160px;
+    }
+    .cta {
+        padding: 15px 0px;
+    }
+    .cta .cta-btn {
+        padding: 8px 20px;
+        border-radius: 9px;
+        transition: none;
+    }
+    .footer .copyright {
+        text-align: center;
+    }
+    .footer .credits {
+        text-align: center;
+    }
+    .footer .footer-newsletter {
+        padding: 25px 0;
+    }
+    .footer .footer-newsletter form {
+        padding-top: 20px;
+    }
+    .footer .footer-top .footer-links ul li {
+        padding: 3px 0;
+        font-size: 13px;
+    }
+    .footer .footer-top .footer-links ul i {
+        font-size: 16px;
+    }
+    .footer .footer-top {
+        padding: 25px 0 0px 0;
+    }
+    .footer {
+        font-size: 13px;
+    }
+    /*-----------------------------------------------------------
+    * End Index Page Css
+    *------------------------------------------------------------*/
+    /* Clipping path */
+    .mobile-common-page {
+        padding-top: 40px;
+    }
+    /* End Clipping path */
+    /* Contact Us */
+    .contact .info {
+        padding: 15px;
+    }
+    .contact .php-email-form {
+        padding: 20px 10px;
+    }
+    .contact .php-email-form .form-group {
+        margin-bottom: 10px;
+    }
+    .contact .php-email-form input {
+        height: 35px;
+    }
+    .office_location .head i {
+        font-size: 35px;
+        padding: 6px;
+        width: 60px;
+        height: 60px;
+    }
+    /* End Contact Us */
+    /* About Us */
+    .about_us_bg {
+        height: 50vh;
+    }
+    .team {
+        padding: 25px 0px;
+    }
+    /* End About Us */
+    /* Faq */
+    .faq .section-title {
+        padding-bottom: 0px !important;
+    }
+    /* End Faq */
+
+    /* Get Quote */
+    .check-container .checkmark:after {
+        left: 6px;
+        top: 3px;
+    }
+    .checkmark {
+        top: 4px;
+        left: 2px;
+        height: 16px;
+        width: 16px;
+    }
+    .file_upload_body .card-body i {
+        font-size: 35px;
+    }
+    /* End Get Quote */
+
+    /* pricing Page */
+    .pricing-card {
+        max-width: 98%;
+        padding: 20px 0px 0px 0px;
+    }
+    .price-body {
+        width: 90%;
+    }
+    .nav-pills .nav-link {
+        font-size: 8px;
+    }
+    /* End pricing Page */
+
+    /* Sample Page */
+    .sample-btn-group {
+        max-width: 100%;
+        margin: auto;
+    }
+    .sample-head h2 {
+        max-width: 99%;
+    }
+    /* End Sample Page */
+
+    /* About Page */
+    .team .member {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .team .member .member-info {
+        padding-top: 20px;
+    }
+    /* End About Page */
+    /* Blog Css */
+    .blog-card {
+        height: auto;
+    }
+    /* End Blog Css */
+    
+     /* About Page Team */
+    .team .member .member-info {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .team .member h4 {
+        text-align: center;
+    }
+    .team .member span {
+        text-align: center;
+    }
+    .team .member span::after {
+        display: none;
+    }
+    .contact .info {
+        margin-bottom: 20px;
+    }
+    .google-map{
+        width: 100%;
+        height: auto;
+    }
+    /* End About Page Team */
+}

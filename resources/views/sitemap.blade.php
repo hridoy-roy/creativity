@@ -1,0 +1,142 @@
+<?php echo '<?xml version="1.0" encoding="UTF-8"?>' ?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ 
+
+
+<url>
+  <loc>https://designercountry.com/</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/clipping-path</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/background-removal</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/image-masking</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/natural-shadow</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/photo-retouching</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/ghosht-manneuquin</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/product-photo-editing</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/color-correction</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/vector-conversion</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/pricing</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/sample</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/contact</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/login</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/get-quote</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/about-us</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/faq</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/terms-and-conditions</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/privacy-and-policy</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/refund-policy</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/photo-gallery</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/payment-method</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/free-trial</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/upload</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/register</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designercountry.com/password/reset</loc>
+  <lastmod>2021-06-23T12:16:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

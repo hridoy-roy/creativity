@@ -1,0 +1,254 @@
+/*------------------DC First Base Css Start--------------*/
+body {
+    font-family: "Josefin Sans", sans-serif;
+    color: #00313f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.8rem;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    -webkit-font-family: "Josefin Sans", sans-serif;
+    -moz-font-family: "Josefin Sans", sans-serif;
+    -ms-font-family: "Josefin Sans", sans-serif;
+}
+::-moz-selection {
+    color: #ffffff;
+    background: #073642;
+}
+::selection {
+    color: #ffffff;
+    background: #073642;
+}
+a {
+    color: #00313f;
+    text-decoration: none;
+}
+a:hover {
+    color: #00313f;
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container-fluid {
+    padding: 0;
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.custom-select.is-invalid:focus,
+.form-control.is-invalid:focus,
+.was-validated .custom-select:invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: #dc3545;
+    box-shadow: none;
+}
+.form-control {
+    line-height: 2rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, black 0.15s ease-in-out;
+}
+.form-control:focus {
+    /*-webkit-box-shadow: none;*/
+    box-shadow: none;
+    border: 1px solid #19beb9;
+}
+/* The container */
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ced4da;
+    border-radius: 2px;
+}
+/* When the checkbox is checked, add a blue background */
+.check-container input:checked ~ .checkmark {
+    background-color: #19beb9;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.check-container .checkmark:after {
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+hr {
+    border: 1px solid #19beb9;
+    opacity: 1;
+}
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: auto;
+    }
+}
+.column {
+    float: left;
+    display: none;
+    /* Hide all elements by default */
+}
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Content */
+.content {
+    background-color: white;
+}
+.show {
+    display: block;
+}
+.btn.active {
+    background-color: #007571;
+    color: white;
+}
+.content img {
+    width: 100%;
+}
+.custom_button {
+    padding: 35px 0px;
+}
+.custom_button a {
+    background-color: #009b97;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px 30px 10px 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.custom_button a:hover {
+    background-color: #007571;
+    color: #ffffff;
+}
+.submit {
+    background-color: #009b97;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px 60px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn-subscribe {
+    background-color: #009b97;
+    color: #ffffff;
+}
+.btn-subscribe:hover {
+    background-color: #007571;
+    color: #ffffff;
+}
+.submit:hover {
+    background-color: #007571;
+    color: #ffffff;
+}
+.custom-b {
+    background-color: #009b97;
+    color: white;
+}
+.custom-b:hover {
+    background-color: #007571;
+    color: white;
+}
+.common-page-style {
+    padding-top: 60px;
+}
+/*------------DC First Base Css End ------------*/
+
+/*----------------------------------------------------
+# Back to top button
+------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #19beb9;
+    color: #fff;
+    transition: all 0.4s;
+}
+.back-to-top i:hover {
+    background: #109994;
+    color: #fff;
+}
+#service_gallery .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
